@@ -1,0 +1,34 @@
+//
+// All default breakpoints
+//
+$bp-lgx-mx: (name: '\\@lgx', cond: 'all and (max-width: 1500px)') !default;
+$bp-lg-mx : (name: '\\@lg' , cond: 'all and (max-width: 1024px)') !default;
+$bp-md-mx : (name: '\\@md' , cond: 'all and (max-width: 768px)') !default;
+$bp-sm-mx : (name: '\\@sm' , cond: 'all and (max-width: 500px)') !default;
+$bp-smx-mx: (name: '\\@smx', cond: 'all and (max-width: 400px)') !default;
+
+$bp-lgx-mn: (name: '\\@lgx-mn', cond: 'all and (min-width: 1500px)') !default;
+$bp-lg-mn : (name: '\\@lg-mn',  cond: 'all and (min-width: 1024px)') !default;
+$bp-md-mn : (name: '\\@md-mn',  cond: 'all and (min-width: 768px)') !default;
+$bp-sm-mn : (name: '\\@sm-mn',  cond: 'all and (min-width: 500px)') !default;
+$bp-smx-mn: (name: '\\@smx-mn', cond: 'all and (min-width: 400px)') !default;
+
+// breakpoints used for generating helpers
+$helper-bps: (
+  $bp-lgx-mx,
+  $bp-lg-mx ,
+  $bp-md-mx ,
+  $bp-sm-mx ,
+  $bp-smx-mx,
+  $bp-lgx-mn,
+  $bp-lg-mn ,
+  $bp-md-mn ,
+  $bp-sm-mn ,
+  $bp-smx-mn,
+) !default;
+
+$centering-on: true !default;
+$display-toggles-on: true !default;
+$transforms-on: true !default;
+$transitions-on: true !default;
+$uncategorized-on: true !default;

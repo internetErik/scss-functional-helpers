@@ -1,0 +1,30 @@
+@if $transforms-on {
+  //transforms
+  .rotZ45 {
+    transform: rotateZ(45deg);
+  }
+
+  .rotZ90 {
+    transform: rotateZ(90deg);
+  }
+
+  .rotZ-45 {
+    transform: rotateZ(-45deg);
+  }
+
+  .rotZ-90 {
+    transform: rotateZ(-90deg);
+  }
+
+  .sca50 {
+    transform: scale(.5, .5);
+  }
+
+  .sca150 {
+    transform: scale(1.5, 1.5);
+  }
+
+  .sca200 {
+    transform: scale(2, 2);
+  }
+}

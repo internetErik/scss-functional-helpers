@@ -1,0 +1,5 @@
+// variables that can be overridden external to atomic-scss
+@import "config/variables";
+
+// collection of helper classes accomplish one thing, but are more complex than atomic classes
+@import "helpers/helpers";

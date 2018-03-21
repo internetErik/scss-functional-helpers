@@ -1,0 +1,38 @@
+@if $transitions-on {
+  //transition settings
+  .trans-op {
+    transition: opacity .3s ease-in-out;
+  }
+
+  .trans-c {
+    transition: color .3s ease-in-out;
+  }
+
+  .trans-bg {
+    transition: background .3s ease-in-out;
+  }
+
+  .trans-transf {
+    transition: transform .3s ease-in-out;
+  }
+
+  .trans-t {
+    transition: top .3s ease-in-out;
+  }
+
+  .trans-b {
+    transition: bottom .3s ease-in-out;
+  }
+
+  .trans-l {
+    transition: left .3s ease-in-out;
+  }
+
+  .trans-r {
+    transition: right .3s ease-in-out;
+  }
+
+  .trans-all {
+    transition: all .3s ease-in-out;
+  }
+}
