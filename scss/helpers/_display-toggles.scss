@@ -63,7 +63,7 @@
     $cond: nth(nth($bp, 2), 2);
 
     @media #{$cond} {
-      .toggle-sibling\:h\@#{$name} {
+      .toggle-sibling\:h#{$name} {
         & ~ .toggle-sibling-target {
           display: none;
         }

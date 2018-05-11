@@ -21,23 +21,23 @@
     $cond: nth(nth($bp, 2), 2);
 
     @media #{$cond} {
-      .center-vert\@#{$name} {
+      .center-vert#{$name} {
         top: 50%;
         transform: translateY(-50%);
       }
 
-      .center-hori\@#{$name} {
+      .center-hori#{$name} {
         left: 50%;
         transform: translateX(-50%);
       }
 
-      .center\@#{$name} {
+      .center#{$name} {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
 
-      .center-off\@#{$name} {
+      .center-off#{$name} {
         top: auto;
         left: auto;
         transform: initial;
