@@ -38,6 +38,26 @@
     }
   }
 
+  .toggle-next-sibling\:h {
+    & + .toggle-next-sibling-target {
+      display: none;
+    }
+
+    &:hover + .toggle-next-sibling-target,
+    .toggle-next-sibling-target:hover {
+      display: block;
+    }
+
+    &:hover + .toggle-next-sibling-target-ib,
+    .toggle-next-sibling-target-ib:hover {
+      display: inline-block;
+    }
+
+    &:hover + .toggle-next-sibling-target-dn {
+      display: none;
+    }
+  }
+
   .toggle-children\:h {
     .toggle-children-target {
       display: none;
